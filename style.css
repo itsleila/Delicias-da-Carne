@@ -596,8 +596,8 @@ img[scr$=".jpg"] {
 .contato h2::after {
   content: url(./img/icons/DETALHE1.svg);
   position: relative;
-  top: 15px;
-  right: 30px;
+  top: 20px;
+  right: 50px;
 }
 
 .contado-dados {
@@ -916,7 +916,7 @@ address p,
   font-weight: 700;
   color: var(--cor-texto-primaria-01);
   position: absolute;
-  left: 525px;
+  left: 480px;
   top: 250px;
   cursor: pointer;
 }
@@ -929,14 +929,26 @@ address p,
   background-color: var(--cor-Terciaria-02);
 }
 
+.rodape-container{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  
+}
+
 .rodape-conteudo {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  padding: 48px;
+  padding: 50px;
   justify-content: space-evenly;
   align-items: center;
+  place-content: space-between;
+  gap: 220px;
 }
+
+
+ 
 
 .separador {
   width: 1066px;
@@ -949,6 +961,8 @@ address p,
   flex-direction: column;
   align-items: center;
 }
+
+
 
 .rodape-conteudo p,
 .rodape-menu p {

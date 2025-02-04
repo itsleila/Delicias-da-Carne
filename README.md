@@ -10,8 +10,8 @@ O **Delícias da Carne** é uma landing page desenvolvida para uma açougue loca
 - CSS
 - JavaScript
 
-## Visite o Site
+## 📸 Screenshot do Site
 
-Você pode acessar o site [aqui](https://itsleila.github.io/Delicias-da-Carne/).
+![banner inicial do site 🖼️](img/foto_site.png)
 
-*Data:* 02-10-2023
+_Data:_ 02-10-2023
